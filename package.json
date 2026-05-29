@@ -1,0 +1,27 @@
+{
+  "name": "shiplog",
+  "version": "0.1.0",
+  "description": "Turn recent git commits into a clean build-in-public update",
+  "bin": {
+    "shiplog": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "postbuild": "chmod +x dist/cli.js",
+    "test": "vitest run",
+    "dev": "tsx src/cli.ts"
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^2.0.0"
+  }
+}
