@@ -2,7 +2,9 @@
 
 Turn recent git commits into a clean build-in-public update.
 
-Reads your git history and formats it into a dated Markdown summary with shipped changes, a next goal, and an X/Twitter-ready snippet — all from the command line, zero configuration.
+Reads your git history and formats it into a dated Markdown summary with shipped changes, a next goal, and an X/Twitter-ready snippet, all from the command line, zero configuration.
+
+![shiplog demo](assets/demo.gif)
 
 ## Installation
 
