@@ -15,6 +15,10 @@
     "dist"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihhhir08/shiplog.git"
+  },
   "dependencies": {
     "commander": "^12.0.0"
   },
